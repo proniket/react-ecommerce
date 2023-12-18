@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+
 import About from './About';
 import Home from './Home';
 import Products from './Products';
@@ -6,10 +8,11 @@ import Contact from './Contact';
 import Cart from './Cart';
 import SingleProduct from './SingleProduct';
 import ErrorPage from './ErrorPage';
-import { GlobalStyle } from './GlobalStyle';
-import { ThemeProvider } from 'styled-components';
-import Header from './components/Header';
+
 import Footer from './components/Footer';
+import Header from './components/Header';
+
+import { GlobalStyle } from './GlobalStyle';
 
 const App = () => {
 	const theme = {

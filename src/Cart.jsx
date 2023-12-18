@@ -1,8 +1,11 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+
 import useCartContext from './context/useCartContext';
 import CartItem from "./components/CartItem";
-import { NavLink } from "react-router-dom";
+
 import { Button } from "./styles/Button";
+
 import FormatPrice from "./Helpers/FormatPrice";
 
 const Cart = () => {
